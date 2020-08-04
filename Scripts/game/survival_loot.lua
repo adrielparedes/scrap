@@ -20,7 +20,7 @@ local random_loot = {
 	{ uuid = obj_consumable_water,			chance = 10,	quantity = randomStackAmount5 },
 	{ uuid = obj_consumable_chemical,		chance = 70,	quantity = randomStackAmount5 },
 	{ uuid = obj_consumable_fertilizer,		chance = 25,	quantity = randomStackAmount5 },
-	{ uuid = obj_consumable_component,		chance = 70,	quantity = 1 },
+	{ uuid = obj_consumable_component,		chance = 70,	quantity = 10 },
 	{ uuid = obj_consumable_inkammo,		chance = 25,	quantity = randomStackAmount10 },
 	{ uuid = obj_consumable_glowstick,		chance = 20,	quantity = 1 },
 	{ uuid = obj_consumable_soilbag,		chance = 40,	quantity = 1 },
@@ -222,7 +222,7 @@ local loot_glow_goop = {
 }
 
 local loot_totebot_green = {
-	slots = function() return 1 end,
+	slots = function() return 10 end,  -- CAMBIE ACA
 	randomLoot = {
 		{ uuid = obj_resource_circuitboard,		chance = 1 },
 	}
@@ -231,8 +231,8 @@ local loot_totebot_green = {
 local loot_haybot = {
 	slots = function() return randomStackAmount( 5, 10, 20 ) end, -- CAMBIE ACA
 	randomLoot = {
-		{ uuid = obj_consumable_component,		chance = 1 },
-		{ uuid = obj_resource_circuitboard,		chance = 2 },
+		{ uuid = obj_consumable_component,		chance = 2 }, -- CAMBIE ACA
+		{ uuid = obj_resource_circuitboard,		chance = 1 }, -- CAMBIE ACA
 	}
 }
 
@@ -250,8 +250,8 @@ local loot_farmbot = {
 		{ uuid = obj_survivalobject_keycard,	chance = 1 },
 	},
 	randomLoot = {
-		{ uuid = obj_consumable_component,		chance = 2,		quantity = randomStackAmountAvg2 },
-		{ uuid = obj_resource_circuitboard,		chance = 1,		quantity = randomStackAmountAvg2 },
+		{ uuid = obj_consumable_component,		chance = 2,		quantity = randomStackAmount( 5, 10, 20 ) }, -- CAMBIE ACA
+		{ uuid = obj_resource_circuitboard,		chance = 1,		quantity = randomStackAmount( 5, 10, 20 ) }, -- CAMBIE ACA
 	}
 }
 
