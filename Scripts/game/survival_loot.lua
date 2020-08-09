@@ -1,6 +1,7 @@
 
 dofile( "$SURVIVAL_DATA/Scripts/game/survival_shapes.lua" )
 dofile( "$SURVIVAL_DATA/Scripts/util.lua" )
+dofile( "$SURVIVAL_DATA/Scripts/game/survival_constants.lua" )
 
 -- A chance of 100 makes the item 100 times more likely than with a chance of 1
 
@@ -20,7 +21,7 @@ local random_loot = {
 	{ uuid = obj_consumable_water,			chance = 10,	quantity = randomStackAmount5 },
 	{ uuid = obj_consumable_chemical,		chance = 70,	quantity = randomStackAmount5 },
 	{ uuid = obj_consumable_fertilizer,		chance = 25,	quantity = randomStackAmount5 },
-	{ uuid = obj_consumable_component,		chance = 70,	quantity = 10 },
+	{ uuid = obj_consumable_component,		chance = 70,	quantity = 1 },
 	{ uuid = obj_consumable_inkammo,		chance = 25,	quantity = randomStackAmount10 },
 	{ uuid = obj_consumable_glowstick,		chance = 20,	quantity = 1 },
 	{ uuid = obj_consumable_soilbag,		chance = 40,	quantity = 1 },
@@ -222,17 +223,16 @@ local loot_glow_goop = {
 }
 
 local loot_totebot_green = {
-	slots = function() return 10 end,  -- CAMBIE ACA
+	slots = function() return 10 end,
 	randomLoot = {
 		{ uuid = obj_resource_circuitboard,		chance = 1 },
 	}
 }
 
 local loot_haybot = {
-	slots = function() return randomStackAmount( 5, 10, 20 ) end, -- CAMBIE ACA
+	slots = function() return randomStackAmount( 5, 10, 15 ) end,
 	randomLoot = {
-		{ uuid = obj_consumable_component,		chance = 2 }, -- CAMBIE ACA
-		{ uuid = obj_resource_circuitboard,		chance = 1 }, -- CAMBIE ACA
+		{ uuid = obj_consumable_component,		chance = 1 }
 	}
 }
 
@@ -245,13 +245,13 @@ local loot_tapebot = {
 }
 
 local loot_farmbot = {
-	slots = function() return randomStackAmount( 5, 10, 20 ) end, -- CAMBIE ACA
+	slots = function() return randomStackAmount( 2, 2, 3 ) end,
 	selectOne = {
 		{ uuid = obj_survivalobject_keycard,	chance = 1 },
 	},
 	randomLoot = {
-		{ uuid = obj_consumable_component,		chance = 2,		quantity = randomStackAmount( 5, 10, 20 ) }, -- CAMBIE ACA
-		{ uuid = obj_resource_circuitboard,		chance = 1,		quantity = randomStackAmount( 5, 10, 20 ) }, -- CAMBIE ACA
+		{ uuid = obj_consumable_component,		chance = 2,		quantity = randomStackAmountAvg2 },
+		{ uuid = obj_resource_circuitboard,		chance = 1,		quantity = randomStackAmountAvg2 },
 	}
 }
 
@@ -315,6 +315,9 @@ function SelectLoot( lootTableName, slotLimit )
 	if slots > 0 and lootTable.selectOne then
 		local loot = SelectOne( lootTable.selectOne )
 		if loot and loot.uuid then
+			if isAnyOf( lootTableName, { "loot_crate_epic", "loot_crate_epic_warehouse" } ) then
+				loot.epic = true
+			end
 			lootList[#lootList + 1] = loot
 		end
 	end
@@ -384,15 +387,15 @@ function SpawnLoot( origin, lootList, worldPosition, ringAngle )
 			end
 
 			local loot = lootList[i]
-			local params = { lootUid = loot.uuid, lootQuantity = loot.quantity or 1 }
+			local params = { lootUid = loot.uuid, lootQuantity = loot.quantity or 1, epic = loot.epic }
 			local vel = dir * (4+math.random()*2)
-
+			local projectileName = loot.epic and "epicloot" or "loot"
 			if type( origin ) == "Shape" then
-				sm.projectile.shapeCustomProjectileAttack( params, "loot", 0, sm.vec3.new( 0, 0, 0 ), vel, origin, 0 )
+				sm.projectile.shapeCustomProjectileAttack( params, projectileName, 0, sm.vec3.new( 0, 0, 0 ), vel, origin, 0 )
 			elseif type( origin ) == "Player" or type( origin ) == "Unit" then
-				sm.projectile.customProjectileAttack( params, "loot", 0, worldPosition, vel, origin, worldPosition, worldPosition, 0 )
+				sm.projectile.customProjectileAttack( params, projectileName, 0, worldPosition, vel, origin, worldPosition, worldPosition, 0 )
 			elseif type( origin ) == "Harvestable" then
-				sm.projectile.harvestableCustomProjectileAttack( params, "loot", 0, worldPosition, vel, origin, 0 )
+				sm.projectile.harvestableCustomProjectileAttack( params, projectileName, 0, worldPosition, vel, origin, 0 )
 			end
 		end
 	end
