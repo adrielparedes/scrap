@@ -1,0 +1,168 @@
+{
+	"partList": [
+	{
+		"uuid": "36bdf14a-c72e-47f6-a54a-1945e790554a",
+		"name": "obj_wheels_two",
+		"renderable": {
+			"lodList": [
+				{
+					"subMeshList": [
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_dif.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_asg.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_nor.png"
+							],
+							"material": "DifAsgNor"
+						}
+					],
+					"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_wheels_two.obj"
+				}
+			]
+		},
+		"rotationSet": "PropZ",
+		"color": "989898",
+		"cylinder": { "diameter": 3, "depth": 1, "axis": "Z" },
+		"density": 500,
+		"physicsMaterial": "Plastic",
+		"sticky": "-Z+Z"
+	},
+	{
+		"uuid": "817ccd31-f29b-4ed3-9ab3-23545bf534cb",
+		"name": "obj_wheels_big_two",
+		"renderable": {
+			"lodList": [
+				{
+					"subMeshList": [
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_dif.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_asg.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_nor.png"
+							],
+							"material": "DifAsgNor"
+						}
+					],
+					"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_wheels_big_two.obj"
+				}
+			]
+		},
+		"rotationSet": "PropZ",
+		"color": "989898",
+		"cylinder": { "diameter": 3, "depth": 2, "axis": "Z" },
+		"density": 500,
+		"physicsMaterial": "Metal",
+		"sticky": "-Z+Z"
+	},
+	{
+		"uuid": "750223fa-a33e-4482-ae3d-56145a0ef005",
+		"name": "obj_wheels_three",
+		"renderable": {
+			"lodList": [
+				{
+					"subMeshList": [
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_classic_dif.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_asg.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_nor.png"
+							],
+							"material": "DifAsgNor"
+						}
+					],
+					"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_wheels_three.obj"
+				}
+			]
+		},
+		"rotationSet": "PropZ",
+		"color": "989898",
+		"cylinder": { "diameter": 3, "depth": 1, "axis": "Z" },
+		"density": 500,
+		"physicsMaterial": "Metal",
+		"sticky": "-Z+Z"
+	},
+	{
+		"uuid": "65080206-97c8-40cb-bcfa-f986c6b30bad",
+		"name": "obj_wheels_big_three",
+		"renderable": {
+			"lodList": [
+				{
+					"subMeshList": [
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_classic_dif.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_asg.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_nor.png"
+							],
+							"material": "DifAsgNor"
+						}
+					],
+					"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_wheels_big_three.obj"
+				}
+			]
+		},
+		"rotationSet": "PropZ",
+		"color": "989898",
+		"cylinder": { "diameter": 3, "depth": 1, "axis": "Z" },
+		"density": 500,
+		"physicsMaterial": "Metal",
+		"sticky": "-Z+Z"
+	},
+	{
+		"uuid": "5066dfe7-b5d4-4c9a-8fb0-29320538adc2",
+		"name": "obj_wheels_large_small",
+		"renderable": {
+			"lodList": [{
+				"subMeshList": [{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_large_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_large_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_large_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}],
+				"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_wheels_large_small.obj"
+			}]
+		},
+		"rotationSet": "PropZ",
+		"color": "df7f00",
+		"cylinder": {
+			"diameter": 5,
+			"depth": 2,
+			"margin": 1,
+			"axis": "Z"
+		},
+		"sticky": "-Z+Z",
+		"density": 300.0,
+		"physicsMaterial": "Plastic"
+	},
+	{
+		"uuid": "4c8a74c1-3fe4-4b2a-b503-90b465b9dc0e",
+		"name": "obj_wheels_large_medium",
+		"renderable": {
+			"lodList": [{
+				"subMeshList": [{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_large_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_large_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_wheels_large_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}],
+				"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_wheels_large_medium.obj"
+			}]
+		},
+		"rotationSet": "PropZ",
+		"color": "df7f00",
+		"cylinder": {
+			"diameter": 7,
+			"depth": 4,
+			"margin": 1,
+			"axis": "Z"
+		},
+		"sticky": "-Z+Z",
+		"density": 300.0,
+		"physicsMaterial": "Plastic"
+	 }
+ ]
+}

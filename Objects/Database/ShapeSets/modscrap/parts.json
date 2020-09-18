@@ -1,0 +1,44 @@
+{
+	"partList": [
+	{
+		"uuid": "074326c3-7125-4058-a878-33cf44ecb8ba",
+		"name": "obj_parts_pallet",
+		"renderable": {
+			"lodList": [
+				{
+					"subMeshList": [
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_parts_pallet_dif.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_parts_pallet_asg.png"
+							],
+							"material": "DifAsg"
+						}
+					],
+					"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_parts_pallet.obj"
+				}
+			]
+		},
+		"rotationSet": "PropFull",
+		"color": "5D3A00",
+		"density": 50,
+		"physicsMaterial": "Wood",
+		"sticky": "+X-X+Y-Y+Z-Z",
+		"qualityLevel": 0,
+		"hull": {
+			"x": 6, "y": 1, "z": 6,
+			"pointList": [
+				{ "x": 1.0, "y": 1.0, "z": 1.0 },
+				{ "x": 1.0, "y": 1.0, "z": -1.0 },
+				{ "x": -1.0, "y": 1.0, "z": -1.0 },
+				{ "x": -1.0, "y": 1.0, "z": 1.0 },
+				{ "x": -1.0, "y": -1.0, "z": 1.0 },
+				{ "x": 1.0, "y": -1.0, "z": 1.0 },
+				{ "x": 1.0, "y": -1.0, "z": -1.0 },
+				{ "x": -1.0, "y": -1.0, "z": -1.0 }
+			],
+			"margin":0
+		}
+	 }
+  ]
+}

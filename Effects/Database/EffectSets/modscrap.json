@@ -1,0 +1,990 @@
+{
+	"ReverseThruster":
+	{
+		"parameterList":
+		{
+			"velocity": 0.0,
+			"power": 0.0,
+			"color": "007fff",
+			"radius": 1.5,
+			"intensity": 0.01,
+			"ambient": true,
+			"ambientIntensityScale": 1.0,
+			"ambientRangeScale": 2.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Thruster",
+				"offset": { "x": 0.0, "y": 0.0, "z": -0.5 },
+				"parameters":
+				[
+					"velocity",
+					"power"
+				],
+				"delay": 0.0
+			},
+			{
+				"type": "pointLight",
+				"name": "",
+				"offset": { "x": 0.0, "y": 0.0, "z": -0.875 },
+				"parameters":
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "reverse_construct_afterburner_BurstThrust_01",
+				"offset": { "x": 0.0, "y": 0.0, "z": -0.6125 },
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "reverse_construct_afterburner_startup",
+				"offset": { "x": 0.0, "y": 0.0, "z": -0.5 },
+				"delay": 0.25
+			},
+			{
+				"type": "particle",
+				"name": "reverse_construct_afterburner",
+				"offset": { "x": 0.0, "y": 0.0, "z": -0.5 },
+				"delay": 0.425
+			}
+		]
+	},
+	"RadarDot":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot1":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot1",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot2":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot2",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot3":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot3",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot4":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot4",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot5":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot5",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot6":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot6",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot7":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot7",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot8":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot8",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot9":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot9",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot10":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot10",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot11":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot11",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot12":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot12",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot13":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot13",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot14":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot14",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot15":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot15",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot16":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot16",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot17":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot17",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot18":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot18",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot19":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot19",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot20":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot20",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot21":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot21",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot22":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot22",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot23":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot23",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot24":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot24",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot25":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot25",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot26":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot26",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot27":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot27",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot28":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot28",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot29":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot29",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot30":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot30",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot31":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot31",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot32":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot32",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot33":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot33",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot34":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot34",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot35":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot35",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot36":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot36",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot37":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot37",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot38":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot38",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot39":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot39",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot40":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot40",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"RadarDot41":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar_dot40",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"Radar3Dplayer":
+	{
+		"parameterList":
+		{
+			"Size": 0.0,
+			"velocity": 0.0,
+			"power": 0.0,
+			"color": "007fff",
+			"radius": 1.5,
+			"intensity": 0.01
+		},
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "radar3dplayer",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"delay": 0.0
+			}
+		]
+	},
+
+	"Radar3dplayer_Durf":
+	{
+		"parameterList": { "Size": 0.0, "velocity": 0.0, "power": 0.0, "color": "007fff", "radius": 1.5, "intensity": 0.01 },
+		"effectList": [ { "type": "particle", "name": "radar3dplayer_Durf", "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "delay": 0.0 } ]
+	},
+	"Radar3dplayer_Moonbo":
+	{
+		"parameterList": { "Size": 0.0, "velocity": 0.0, "power": 0.0, "color": "007fff", "radius": 1.5, "intensity": 0.01 },
+		"effectList": [ { "type": "particle", "name": "radar3dplayer", "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "delay": 0.0 } ]
+	},
+	"Radar3dplayer_kAN":
+	{
+		"parameterList": { "Size": 0.0, "velocity": 0.0, "power": 0.0, "color": "007fff", "radius": 1.5, "intensity": 0.01 },
+		"effectList": [ { "type": "particle", "name": "radar3dplayer_kAN", "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "delay": 0.0 } ]
+	},
+	"Radar3dplayer_ScrapMan":
+	{
+		"parameterList": { "Size": 0.0, "velocity": 0.0, "power": 0.0, "color": "007fff", "radius": 1.5, "intensity": 0.01 },
+		"effectList": [ { "type": "particle", "name": "radar3dplayer_ScrapMan", "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "delay": 0.0 } ]
+	},
+	"Radar3dplayer_CamodoGaming":
+	{
+		"parameterList": { "Size": 0.0, "velocity": 0.0, "power": 0.0, "color": "007fff", "radius": 1.5, "intensity": 0.01 },
+		"effectList": [ { "type": "particle", "name": "radar3dplayer", "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "delay": 0.0 } ]
+	},
+	"Radar3dplayer_SML":
+	{
+		"parameterList": { "Size": 0.0, "velocity": 0.0, "power": 0.0, "color": "007fff", "radius": 1.5, "intensity": 0.01 },
+		"effectList": [ { "type": "particle", "name": "radar3dplayer_SML", "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "delay": 0.0 } ]
+	},
+	"Radar3dplayer_BB":
+	{
+		"parameterList": { "Size": 0.0, "velocity": 0.0, "power": 0.0, "color": "007fff", "radius": 1.5, "intensity": 0.01 },
+		"effectList": [ { "type": "particle", "name": "radar3dplayer", "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "delay": 0.0 } ]
+	},
+	"Radar3dplayer_neebs_gaming":
+	{
+		"parameterList": { "Size": 0.0, "velocity": 0.0, "power": 0.0, "color": "007fff", "radius": 1.5, "intensity": 0.01 },
+		"effectList": [ { "type": "particle", "name": "radar3dplayer_neebs_gaming", "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "delay": 0.0 } ]
+	},
+
+
+	"LaserSight":
+	{
+		"parameterList":
+		{
+			"Scale": 10
+		},
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "lasersight",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"Scale"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"ModHeadLight":
+	{
+		"parameterList":
+		{
+			"range": 50.0,
+			"coneFade": 0.5,
+			"coneAngle": 25.0,
+			"intensity": 1.5,
+			"ambient": true,
+			"ambientPosScale": 0.25,
+			"ambientIntensityScale": 0.2,
+			"ambientRangeScale": 1.0,
+			"shadowMode": 2,
+			"color": "ffff66",
+			"luminance": 0.5
+		},
+		"effectList":
+		[
+			{
+				"type": "spotLight",
+				"name": "",
+				"direction": { "x": 0.0, "y": 0.0, "z": 1.0 },
+				"parameters":
+				[
+					"color",
+					"coneAngle",
+					"coneFade",
+					"luminance"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"ModLightCube":
+	{
+		"parameterList":
+		{
+			"radius": 20,
+			"intensity": 0.5,
+			"ambient": true,
+			"ambientIntensityScale": 1.0,
+			"ambientRangeScale": 2.0,
+			"color": "ffff66"
+		},
+		"effectList":
+		[
+			{
+				"type": "pointLight",
+				"name": "",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+
+//sound effects
+	"tone0":
+	{
+		"parameterList":
+		{
+			"frequency": 0.0,
+			"power": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "tonea",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"frequency",
+					"power"
+				]
+			}
+		]
+	},
+	"tone1":
+	{
+		"parameterList":
+		{
+			"frequency": 0.0,
+			"power": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "toneb",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"frequency",
+					"power"
+				]
+			}
+		]
+	},
+	"tone2":
+	{
+		"parameterList":
+		{
+			"frequency": 0.0,
+			"power": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "toned",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"frequency",
+					"power"
+				]
+			}
+		]
+	},
+	"tone3":
+	{
+		"parameterList":
+		{
+			"frequency": 0.0,
+			"power": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "tonec",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"frequency",
+					"power"
+				]
+			}
+		]
+	},
+	"tote1":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Retrobass",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote2":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Retrodrum",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote3":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Retrovoice",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote4":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Retrofmblip",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote5":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Dancebass",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote6":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Dancedrum",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote7":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Dancepad",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote8":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Dancevoice",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote9":
+	{
+		"parameterList":
+		{
+			"pitch": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "Retrowildblip",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"pitch"
+				]
+			}
+		]
+	},
+	"tote10":
+	{
+		"parameterList":
+		{
+			"velocity": 0.0,
+			"Intensity": 30.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/challengeball_rolling",
+				"parameters": [ "velocity" ]
+			}
+		]
+	}
+}

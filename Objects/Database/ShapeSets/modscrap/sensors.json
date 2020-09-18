@@ -1,0 +1,467 @@
+{
+	"partList": [
+		{
+			"uuid": "1810410b-a2ca-401e-b56c-5f11d8be77ee",
+ 			"name": "obj_interactive_decoder",
+      "renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_decoder_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_decoder_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.16666667, "v": 0.1645 }
+								}
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx"
+					}
+				]
+			},
+ 			"color": "5a585c",
+ 			"box": {
+ 				"x": 1,
+ 				"y": 1,
+ 				"z": 1
+ 			},
+ 			"scripted" :
+ 			{
+ 				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/LogicDecoder.lua",
+ 				"classname": "LogicDecoder"
+ 			},
+ 			"rotationSet": "PropYZ",
+ 			"physicsMaterial": "Mechanical",
+ 			"ratings": {
+ 				"density": 2,
+ 				"durability": 3,
+ 				"friction": 5,
+ 				"buoyancy": 2
+ 			},
+ 			"flammable": false,
+ 			"density": 250.0,
+ 			"qualityLevel": 3,
+ 			"stackSize": 10
+ 		},
+		{
+			"name": "obj_interactive_button_w",
+			"uuid": "e1e66432-6332-46af-909d-4ac6f01e5e32",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_logic_forward_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_logic_forward_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.16666667, "v": 0.1645 }
+								}
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+						"scripted" :
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Key_Converter.lua",
+				"classname": "ConverterPower"
+			},
+			"color": "ff0000",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+		{
+			"name": "obj_interactive_button_a",
+			"uuid": "bd584234-94a6-4688-928f-06ae37769ef2",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_logic_left_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_logic_left_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.16666667, "v": 0.1645 }
+								}
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+						"scripted" :
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Key_Converter.lua",
+				"classname": "ConverterBearing"
+			},
+			"color": "ff0000",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+		{
+			"name": "obj_interactive_button_s",
+			"uuid": "2a0e7e29-13f5-4127-9c05-d5694e56d110",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_logic_reverse_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_logic_reverse_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.16666667, "v": 0.1645 }
+								}
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+						"scripted" :
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Key_Converter.lua",
+				"classname": "ConverterPower"
+			},
+			"color": "ff0000",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+		{
+			"name": "obj_interactive_button_d",
+			"uuid": "fac84c0f-ef7f-4b0c-9c8d-c25c424fa25e",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_logic_right_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_logic_right_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.16666667, "v": 0.1645 }
+								}
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"scripted" :
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Key_Converter.lua",
+				"classname": "ConverterBearing"
+			},
+			"color": "ff0000",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "97ed6b62-93ef-484b-8a03-42a3fdc76aa2",
+			"name": "obj_interactive_tiltsensor",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/modscrap/obj_interactive_tiltsensor.rend",
+			"color": "5a585c",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted" :
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Tilt_Sensor.lua",
+				"classname": "TiltSensor"
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"density": 250.0,
+			"qualityLevel": 3,
+			"stackSize": 10
+		},
+		{
+		"uuid": "f84d2720-e3fd-4969-a7af-bd178b04f270",
+		"name": "obj_interactive_altimetersensor",
+		 "renderable": {
+			 "lodList": [
+				 {
+					 "subMeshList": [
+						 {
+							 "textureList": [
+								 "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_altimetersensor_dif.tga",
+								 "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+								 "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+							 ],
+							 "material": "PoseAnimDifAsgNor"
+						 },
+						 {
+							 "textureList": [
+								 "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_altimetersensor_dif.tga",
+								 "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+								 "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+							 ],
+							 "material": "UVAnimDifAsgNor",
+							 "custom":
+							 {
+								 "uv0": { "u": 0.16666667, "v": 0.1645 }
+							 }
+						 }
+					 ],
+					 "mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+					 "pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx"
+				 }
+			 ]
+		 },
+		 "color": "5a585c",
+		 "box": {
+			 "x": 1,
+			 "y": 1,
+			 "z": 1
+		 },
+		 "scripted" :
+		 {
+			 "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/AltimeterSensor.lua",
+			 "classname": "AltimeterSensor"
+		 },
+		 "rotationSet": "PropYZ",
+		 "physicsMaterial": "Mechanical",
+		 "ratings": {
+			 "density": 2,
+			 "durability": 3,
+			 "friction": 5,
+			 "buoyancy": 2
+		 },
+		 "flammable": false,
+		 "density": 250.0,
+		 "qualityLevel": 3,
+		 "stackSize": 10
+	 },
+	 {
+	 "uuid": "7d755c84-9629-4b7c-99cb-5d493dcb7eac",
+	 "name": "obj_interactive_accelerometer",
+		"renderable": {
+			"lodList": [
+				{
+					"subMeshList": [
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_accelerometer_dif.tga",
+								"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+								"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+							],
+							"material": "PoseAnimDifAsgNor"
+						},
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_accelerometer_dif.tga",
+								"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+								"$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+							],
+							"material": "UVAnimDifAsgNor",
+							"custom":
+							{
+								"uv0": { "u": 0.16666667, "v": 0.1645 }
+							}
+						}
+					],
+					"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+					"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx"
+				}
+			]
+		},
+		"color": "5a585c",
+		"box": {
+			"x": 1,
+			"y": 1,
+			"z": 1
+		},
+		"scripted" :
+		{
+			"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Accelerometer.lua",
+			"classname": "Accelerometer"
+		},
+		"rotationSet": "PropYZ",
+		"physicsMaterial": "Mechanical",
+		"ratings": {
+			"density": 2,
+			"durability": 3,
+			"friction": 5,
+			"buoyancy": 2
+		},
+		"flammable": false,
+		"density": 250.0,
+		"qualityLevel": 3,
+		"stackSize": 10
+		},
+		{
+			"uuid": "5056ff7d-c098-40ad-a15f-83b39ef7333b",
+			"name": "obj_interactive_rangesensor",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_rangesensor_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_rangesensor_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_rangesensor_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_rangesensor_dif.tif",
+									"",
+									""
+								],
+								"material": "PoseAnimLightCone"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_rangesensor_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_rangesensor_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_rangesensor_nor.png"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_rangesensor_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_rangesensor_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "T_-Y-Z",
+			"color": "3A3A3A",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 25.0,
+			"ratings": {
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 7
+			},
+			"flammable": false,
+			"qualityLevel": 1,"physicsMaterial": "Metal",
+			"scripted":
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/RangeSensor.lua",
+				"classname": "RangeSensor"
+			},
+			"sticky": "-X+X-Y+Y-Z+Z"
+		},
+		{
+			"uuid": "46f33907-4e96-4886-bd3e-dd6a1ec111e2",
+			"name": "obj_interactive_watersensor",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_watersensor_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_watersensor_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_watersensor.obj"
+					}
+				]
+			},
+	          "scripted" :
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/WaterSensor.lua",
+				"classname": "WaterSensor"
+			},
+			"color": "d02525",
+			"box": {
+				"x": 1, "y": 1, "z": 1
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"sticky": "-Z+Z-Y+Y-X+X",
+			"rotationSet": "PropYZ"
+		}
+	]
+}

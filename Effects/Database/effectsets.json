@@ -1,0 +1,18 @@
+{
+	"effectSetList":
+	[
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/tapebot.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/woc.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/environment.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/elevator.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/harvestable.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/totebot.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/haybot.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/farmbot.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/shaperenderable.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/glowstick.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/bucket.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/farmer.json",
+		"$SURVIVAL_DATA/Effects/Database/EffectSets/modscrap.json"
+	]
+}

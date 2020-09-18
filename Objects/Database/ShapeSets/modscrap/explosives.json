@@ -1,0 +1,43 @@
+{
+	"partList": [
+	{
+		"uuid": "caca9858-4724-4333-a669-5373439d02b6",
+		"name": "obj_interactive_dynamite",
+		"renderable": {
+			"lodList": [
+				{
+					"subMeshList": [
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_dynamite_dif.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_dynamite_asg.png",
+								"$GAME_DATA/Textures/nonor_nor.tga"
+							],
+							"material": "UVAnimDifAsgNor",
+							"custom": { "uv0": { "u": 0.125, "v": 0.076 } }
+						},
+						{
+							"textureList": [
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_unitex_dif.png",
+								"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_unitex_asg.png",
+								"$GAME_DATA/Textures/nonor_nor.tga"
+							],
+							"material": "PoseAnimDifAsgNor"
+						}
+					],
+					"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_dynamite_off.obj",
+					"pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_dynamite_on.obj"
+				}
+			]
+		},
+		"scripted": { "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Dynamite.lua", "classname": "Dynamite" },
+		"qualityLevel": 0,
+		"rotationSet": "PropY",
+		"color": "d02525",
+		"box": { "x": 2, "y": 1, "z": 1 },
+		"physicsMaterial": "Metal",
+		"density": 250,
+		"sticky": "-X+X-Y+Y-Z+Z"
+	 }
+  ]
+}

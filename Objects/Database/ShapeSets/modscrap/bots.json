@@ -1,0 +1,47 @@
+{
+	"partList": [
+		{
+			"uuid": "03997358-1595-44b5-898a-3ce18285995a",
+			"name": "obj_craftbot_modcrafter",
+			"renderable": "$SURVIVAL_DATA/Character/Char_Modcrafter/char_craftbot.rend",
+			"color": "424242",
+			"hull": {
+				"x": 10,
+				"y": 8,
+				"z": 9,
+				"col": "$SURVIVAL_DATA/Objects/Collision/char_craftbot_col.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/ModCrafter.lua",
+				"classname": "ModCrafter"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Z+Y-Y+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 7,
+				"durability": 7,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+X",
+						"x": 5.0,
+						"y": -2.5,
+						"z": 0.0
+					},
+					{
+						"side": "-X",
+						"x": -5.0,
+						"y": -2.5,
+						"z": 0.0
+					}
+				]
+			},
+			"carryItem": true
+		}
+  ]
+}

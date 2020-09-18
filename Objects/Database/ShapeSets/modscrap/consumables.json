@@ -1,0 +1,43 @@
+{
+	"partList": [
+		{
+      "uuid": "b4ec8fce-adbb-11ea-a64d-0242ac130004",
+      "name": "obj_consumable_chemicalgas",
+      "renderable": {
+        "lodList": [
+          {
+            "subMeshList": [
+              {
+                "textureList": [
+                  "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_consumable_chemicalgas_dif.tga",
+                  "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_consumable_chemicalgas_asg.tga",
+                  "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_consumable_chemicalgas_nor.tga"
+                ],
+                "material": "DifAsgNor"
+              }
+            ],
+            "mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_consumable_chemicalgas.fbx"
+          }
+        ]
+      },
+      "color": "a13383",
+      "box": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "itemStack": {},
+      "rotationSet": "PropY",
+      "sticky": "-Y",
+      "physicsMaterial": "Plastic",
+      "ratings": {
+        "density": 2,
+        "durability": 1,
+        "friction": 4,
+        "buoyancy": 7
+      },
+      "flammable": true,
+      "stackSize": 20
+    }
+  ]
+}

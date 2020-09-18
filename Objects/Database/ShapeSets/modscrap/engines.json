@@ -1,0 +1,302 @@
+{
+	"partList": [
+		{
+			"uuid": "00a0333c-3a41-4c83-b758-817cb81a8272",
+			"name": "obj_interactive_flexengine_01",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/modscrap/obj_interactiveupgradeable_flexengine01.rend",
+			"color": "404040",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/FlexEngine.lua",
+				"classname": "FlexEngine",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z+Z+X-X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 8,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true,
+			"density": 1250.0,
+			"qualityLevel": 5
+		},
+		{
+			"uuid": "524b0ab5-d478-4fb6-bc68-588286959759",
+			"name": "obj_interactive_flexengine_02",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/modscrap/obj_interactiveupgradeable_flexengine02.rend",
+			"color": "404040",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/FlexEngine.lua",
+				"classname": "FlexEngine",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z+Z+X-X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true,
+			"density": 1250.0,
+			"qualityLevel": 5
+		},
+		{
+			"uuid": "d1d80aa7-627f-4e5e-91d4-5030a4923efd",
+			"name": "obj_interactive_flexengine_03",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/modscrap/obj_interactiveupgradeable_flexengine03.rend",
+			"color": "404040",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/FlexEngine.lua",
+				"classname": "FlexEngine",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z+Z+X-X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 5,
+				"durability": 6,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true,
+			"density": 1250.0,
+			"qualityLevel": 5
+		},
+		{
+			"uuid": "1f519487-8485-415a-9a2b-10f55475867b",
+			"name": "obj_interactive_flexengine_04",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/modscrap/obj_interactiveupgradeable_flexengine04.rend",
+			"color": "404040",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/FlexEngine.lua",
+				"classname": "FlexEngine",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z+Z+X-X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 4,
+				"durability": 7,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"density": 1250.0,
+			"qualityLevel": 5
+		},
+		{
+			"uuid": "2ecc65e1-0fe0-4e39-aeff-2ac41c1acf12",
+			"name": "obj_interactive_flexengine_05",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/modscrap/obj_interactiveupgradeable_flexengine05.rend",
+			"color": "404040",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/FlexEngine.lua",
+				"classname": "FlexEngine",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y-Z+Z+X-X",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 3,
+				"durability": 8,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false,
+			"density": 1250.0,
+			"qualityLevel": 5
+		},
+		{
+			"uuid": "9966492a-75a4-4c0c-b387-c918c1551429",
+			"name": "obj_interactive_flexenginevsix",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_flexenginevsix_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_flexenginevsix_asg.png",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_flexenginevsix.obj"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/FlexEngine.lua",
+				"classname": "FlexEngine",
+				"data": {}
+			},
+			"color": "7A7A7A",
+			"density": 1250.0,
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"rotationSet": "T_-Y",
+			"box": { "x": 3, "y": 2, "z": 3 },
+			"ratings": {
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"qualityLevel": 1,"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "3e85beeb-d53a-43e3-b9eb-7ec4e963e9cb",
+			"name": "obj_interactive_flexengineveight",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_flexengineveight_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_flexengineveight_asg.png",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_flexengineveight.obj"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/FlexEngine.lua",
+				"classname": "FlexEngine",
+				"data": {}
+			},
+			"color": "7A7A7A",
+			"density": 1250.0,
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"rotationSet": "T_-Y",
+			"box": { "x": 3, "y": 2, "z": 4 },
+			"ratings": {
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"qualityLevel": 1,"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "62463280-39be-40a2-9222-cf752d15d354",
+			"name": "obj_interactive_flexenginetractor",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_flexenginetractor_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_flexenginetractor_asg.png",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_flexenginetractor.obj"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/FlexEngine.lua",
+				"classname": "FlexEngine",
+				"data": {}
+			},
+			"color": "7A7A7A",
+			"density": 1250.0,
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"rotationSet": "T_-Y",
+			"box": { "x": 2, "y": 2, "z": 3 },
+			"ratings": {
+				"durability": 10,
+				"friction": 3,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"qualityLevel": 1,"physicsMaterial": "Metal"
+		},
+		{
+			"uuid": "5306ec74-cf53-44c0-ab28-f55624151041",
+			"name": "obj_interactive_eletricenginepower",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_eletricenginepower_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_eletricenginepower_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_eletricenginepower_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_eletricenginepower_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_eletricenginepower_on.fbx"
+					}
+				]
+			},
+			"color": "7A7A7A",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 3
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/ElectricEngine.lua",
+				"classname": "ElectricEngine",
+				"data": {}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 7,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true,
+			"density": 1250.0,
+			"qualityLevel": 5
+		}
+  ]
+}

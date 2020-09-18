@@ -1,0 +1,683 @@
+{
+	"partList": [
+    {
+      "name": "obj_interactive_antennarx",
+      "uuid": "9a218848-bac4-4329-87d2-5c3ba0cb3f5f",
+      "renderable": {
+        "lodList": [
+          {
+            "subMeshList": [
+              {
+                "textureList": [
+                  "$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+                  "$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+                  "$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+                ],
+                "material": "DifAsgNor"
+              }
+            ],
+            "mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_antenna01.fbx"
+          }
+        ]
+      },
+      "color": "930000",
+      "box": {
+        "x": 1,
+        "y": 8,
+        "z": 1
+      },
+      "scripted": {
+        "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/AntennaRX.lua",
+        "classname": "AntennaRX"
+      },
+      "rotationSet": "PropY",
+      "sticky": "-Y",
+      "physicsMaterial": "Metal",
+      "ratings": {
+        "density": 2,
+        "durability": 2,
+        "friction": 3,
+        "buoyancy": 3
+      },
+      "flammable": false,
+      "density": 250.0,
+      "qualityLevel": 2
+    },
+    {
+      "name": "obj_interactive_antennatx",
+      "uuid": "f16d77ab-f4d8-46e8-b98f-b3559aeec72e",
+      "renderable": {
+        "lodList": [
+          {
+            "subMeshList": [
+              {
+                "textureList": [
+                  "$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+                  "$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+                  "$GAME_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+                ],
+                "material": "DifAsgNor"
+              }
+            ],
+            "mesh": "$GAME_DATA/Objects/Mesh/industrial/obj_industrial_antenna02.fbx"
+          }
+        ]
+      },
+      "scripted": {
+        "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/AntennaTX.lua",
+        "classname": "AntennaTX"
+      },
+      "color": "930000",
+      "box": {
+        "x": 1,
+        "y": 7,
+        "z": 1
+      },
+      "rotationSet": "PropY",
+      "sticky": "-Y",
+      "physicsMaterial": "Metal",
+      "ratings": {
+        "density": 2,
+        "durability": 2,
+        "friction": 3,
+        "buoyancy": 3
+      },
+      "flammable": false,
+      "density": 250.0,
+      "qualityLevel": 2
+    },
+		{
+			"uuid": "5e4cc89b-242b-4c2c-aee4-aa8960e8c45c",
+			"name": "obj_interactive_camerafpv",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_camera_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_sensor_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"minViewSize": 12,
+						"mesh": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_sensor_off.fbx",
+						"pose0": "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_sensor_on.fbx"
+					}
+				]
+			},
+			"rotationSet": "PropYZ",
+			"color": "de2020",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"scripted":
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/CameraFPV.lua",
+				"classname": "CameraFPV"
+			},
+			"qualityLevel": 3
+		},
+		{
+			"uuid": "f2263bae-23e5-4165-90e7-03a2cd4c0a18",
+			"name": "obj_interactive_remotecontrol",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_nor.tga"
+								],
+								"material": "2PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/survivalobject/obj_survivalobject_elevatorbutton_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/survivalobject/obj_survivalobject_elevatorbutton_up.fbx",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/survivalobject/obj_survivalobject_elevatorbutton_down.fbx"
+					}
+				]
+			},
+			"color": "de2020",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 1
+			},
+			"scripted":
+			{
+					"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/RemoteControl.lua",
+					"classname": "RemoteControl"
+			},
+			"rotationSet": "PropZ",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 10,
+				"friction": 5,
+				"buoyancy": 5
+			},
+			"flammable": false,
+			"density": 250.0
+		},
+		{
+			"uuid": "5736fd8a-2177-4f2e-b7fa-fd069e7915e3",
+			"name": "obj_pneumatic_minepump",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/modscrap/obj_pneumatic_minepump.rend",
+			"color": "424242",
+			"hull": {
+				"x": 3,
+				"y": 4,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_pneumatic_pump.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/MineVacuum.lua",
+				"classname": "MineVacuum"
+			},
+			"rotationSet": "PropNegYmZX",
+			"sticky": "+Y+Z-Z+X-X",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 7,
+				"friction": 5,
+				"buoyancy": 7
+			},
+			"flammable": false,
+			"density": 250.0,
+			"pipe": {
+				"openings": [
+					{
+						"side": "+Y",
+						"x": 0,
+						"y": 2.0,
+						"z": 0
+					}
+				]
+			}
+		},
+		{
+			"uuid": "df14cfe1-e690-4b41-8366-fffde128a074",
+			"name": "obj_interactive_analogcontroller",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_analogcontroller_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_analogcontroller_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_analogcontroller.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "f3871c",
+			"hull": {
+				"x": 2, "y": 1, "z": 1,
+				"pointList": [
+					{ "x": -1.0, "y": 0.8, "z": -1.0 },
+					{ "x": 1.0, "y": -0.8, "z": -1.0 },
+					{ "x": -1.0, "y": -0.8, "z": -1.0 },
+					{ "x": 1.0, "y": 0.8, "z": -1.0 },
+					{ "x": -0.8, "y": -0.1, "z": -0.7 },
+					{ "x": 0.8, "y": -0.1, "z": -0.7 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Plastic",
+			"survivalSequence": {},
+			"sticky": "-Z"
+		},
+		{
+			"uuid": "e3a2b3af-8419-43a2-a58a-1f4906e060ae",
+			"name": "obj_interactive_sanalogcontroller",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_analogcontroller_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_analogcontroller_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_sanalogcontroller.obj"
+					}
+				]
+			},
+			"rotationSet": "PropZ",
+			"color": "f3871c",
+			"hull": {
+				"x": 1, "y": 1, "z": 1, "margin": 0.1,
+				"pointList": [
+					{ "x": -1.0, "y": 0.7, "z": -1.0 },
+					{ "x": 1.0, "y": -0.7, "z": -1.0 },
+					{ "x": -1.0, "y": -0.7, "z": -1.0 },
+					{ "x": 1.0, "y": 0.7, "z": -1.0 },
+					{ "x": 0, "y": 0, "z": -0.8 }
+				]
+			},
+			"density": 250,
+			"physicsMaterial": "Plastic",
+			"survivalSequence": {},
+			"sticky": "-Z"
+		},
+		{
+			"uuid": "f80a4164-564a-4ec9-9eba-5bd07461440d",
+			"name": "obj_interactive_slimcontroller",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_controller_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_controller_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_controller_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_slimcontroller.obj"
+					}
+				]
+			},
+			"color": "df7f00",
+			"hull": {
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.1,
+				"pointList": [
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"survivalSequence": {},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Mechanical",
+			"density": 250.0,
+			"qualityLevel": 3,
+			"stackSize": 5
+		},
+		{
+			"uuid": "c769643f-6cee-4bf9-b559-8d54585cfea1",
+			"name": "obj_interactive_tracker",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_tracker_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_tracker_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_tracker_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_tracker.obj"
+					}
+				]
+			},
+			"scripted": { "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Tracker.lua", "classname": "Tracker" },
+			"color": "df7f00",
+			"hull": {
+				"x": 1, "y": 1, "z": 1,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -0.9 },
+					{ "x": 1.0, "y": -1.0, "z": -0.9 },
+					{ "x": -1.0, "y": 1.0, "z": -0.9 },
+					{ "x": 1.0, "y": 1.0, "z": -0.9 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"sticky": "-Z",
+			"rotationSet": "PropZ",
+			"qualityLevel": 4
+		},
+		{
+			"uuid": "a72fe0a2-1e29-4200-9bcb-244a3c6c5a58",
+			"name": "obj_interactive_signalnoise",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_signalnoise_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_signalnoise_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_signalnoise_nor.png"
+								],
+								"material":"UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.02, "v":0.125 }
+								}
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_signalnoise_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_signalnoise_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_signalnoise_nor.png"
+								],
+								"material": "PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_signalnoise_off.obj",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_signalnoise_on.obj"
+					}
+				]
+			},
+			"scripted": { "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/SignalNoise.lua", "classname": "SignalNoise" },
+			"color": "df7f00",
+			"hull": {
+				"x": 1, "y": 1, "z": 1,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -0.7 },
+					{ "x": 1.0, "y": -1.0, "z": -0.7 },
+					{ "x": -1.0, "y": 1.0, "z": -0.7 },
+					{ "x": 1.0, "y": 1.0, "z": -0.7 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"sticky": "-Z",
+			"rotationSet": "PropZ",
+			"qualityLevel": 4
+		},
+		{
+			"uuid":"6325aa92-8505-4a70-bda4-4bb6a3fa4dd6",
+			"name": "obj_interactive_radar",
+			"renderable":{
+				"lodList":[
+					{
+						"subMeshList":[
+							{
+								"textureList":[
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_radar_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_radar_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material":"UVAnimDifAsgNor",
+								"custom": { "uv0": { "u": 0.125, "v": 0.125} }
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_radarglass_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_radarglass_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "DifAsgAlphaFlip"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_white_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_glass_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "Glass"
+							},
+							{
+								"textureList":[
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_unitex_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_unitex_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material":"3PoseAnimDifAsgNor"
+							}
+						],
+						"mesh":"$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_radarbase.obj",
+						"pose0":"$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_radarswap.obj",
+						"pose1":"$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_radarbottom.obj",
+						"pose2":"$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_radarright.obj"
+					}
+				]
+			},
+			"scripted": { "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Radar.lua", "classname": "Radar" },
+			"rotationSet":"PropY",
+			"color": "df7f00",
+			"density":250.0,
+			"physicsMaterial":"Metal",
+			"box":{ "x":3, "y":3, "z":1 },
+			"qualityLevel": 3
+		},
+		{
+			"uuid": "3c94ac07-f4c2-44e7-93f9-4b0f0ed96d86",
+			"name": "obj_interactive_blockletters",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_blockletters_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_blockletters_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.0625, "v": 0.0625 }
+								}
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_blockletters_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_blockletters_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_blockletters.obj"
+					}
+				]
+			},
+			"scripted": { "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/BlockLetters.lua", "classname": "BlockLetters" },
+			"color": "df7f00",
+			"box": {
+				"x": 1, "y": 1, "z": 1
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"rotationSet": "PropFull",
+			"sticky": "-Z-Y+Z-X+X",
+			"qualityLevel": 2
+		},
+		{
+			"uuid": "ecf64dbe-ec41-4384-99b0-9df030385b38",
+			"name": "obj_interactive_wirelessrouter",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_wirelessrouter_ms_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_wirelessrouter_ms_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "UVAnimDifAsgNor",
+								"custom":
+								{
+									"uv0": { "u": 0.0625, "v": 0.0625 }
+								}
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_wirelessrouter_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_wirelessrouter_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_wirelessrouter_nor.png"
+								],
+								"material": "2PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_wirelessrouter_0.obj",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_wirelessrouter_1.obj",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_wirelessrouter_2.obj"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "df7f00",
+			"hull": {
+				"x": 1, "y": 1, "z": 1,
+				"pointList": [
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 0.4, "z": -1.0 },
+					{ "x": 1.0, "y": 0.4, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"scripted": { "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/WirelessBlock.lua", "classname": "WirelessBlock" },
+			"sticky": "-Y",
+			"qualityLevel": 2
+		},
+		{
+			"uuid": "64511378-4753-4a4e-9f85-36ce7331e5f9",
+			"name": "obj_interactive_seatedclick",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_seatedclick_dif.png",
+									"$GAME_DATA/Textures/Default/default_asg.tga",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_seatedclick.obj"
+					}
+				]
+			},
+			"scripted" :
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/SeatedClick.lua",
+				"classname": "SeatedClick"
+			},
+			"color": "424242",
+			"box": {
+				"x": 1, "y": 1, "z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "All",
+			"physicsMaterial": "Metal",
+			"qualityLevel": 4
+		},
+		{
+			"uuid": "44539e11-2eeb-492a-b18d-0f0eb5b22dbc",
+			"name": "obj_interactive_buildprotector",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_buildprotector_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_buildprotector_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "Glass"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_unitex_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_block_unitex_asg.png",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "2PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_buildprotector.obj",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_buildprotector_on.obj",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_buildprotector_pulse.obj"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"scripted":
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/BuildProtector.lua",
+				"classname": "BuildProtector"
+			},
+			"color": "df7f00",
+			"box": { "x": 2, "y": 1, "z": 1 },
+			"physicsMaterial": "Metal",
+			"density": 1250,
+			//"sticky": "-X+X-Y+Y-Z+Z",
+			"qualityLevel": 5,
+			"restrictions": {
+				"liftable": false,
+				"convertibleToDynamic": false
+			}
+		},
+		{
+			"uuid": "c1f84b45-3b2b-48d0-8adb-adc023c18af7",
+			"name": "obj_interactive_numpad",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_numpad_dif.png"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_numpad.obj"
+					}
+				]
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Numpad.lua",
+				"classname": "Numpad"
+			},
+			"rotationSet": "PropZ",
+			"color": "df7f00",
+			"density": 250.0,
+			"physicsMaterial": "Plastic",
+			"hull": { "x": 2, "y": 2, "z": 1, "margin": 0,
+				"pointList": [
+					{ "x": -1, "y": 1, "z": -1 },
+					{ "x": 1, "y": 1, "z": -1 },
+					{ "x": 1, "y": -1, "z": -1 },
+					{ "x": -1, "y": -1, "z": -1 },
+					{ "x": -1, "y": 1, "z": -0.8 },
+					{ "x": 1, "y": 1, "z": -0.8 },
+					{ "x": 1, "y": -1, "z": -0.8 },
+					{ "x": -1, "y": -1, "z": -0.8 }
+				]},
+			"qualityLevel": 3
+		}
+  ]
+}

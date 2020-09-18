@@ -1,0 +1,172 @@
+{
+	"partList": [
+		{
+			"uuid": "f6cfe057-1dab-4ecd-91e0-6649caf35902",
+			"name": "obj_interactive_compass",
+			"renderable": {
+	      "lodList": [
+	         {
+	          "subMeshList": [
+	            {
+	              "textureList": [
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_compass_s_dif.tga",
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_compass_s_asg.tga",
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_compass_s_nor.tga"
+	              ],
+	              "material": "UVAnimDifAsgNor",
+	              "custom":
+	              {
+	                "uv0": { "u": 0.5, "v": 0.1 } /*0.3984375*/
+	              }
+	            },
+	            {
+	              "textureList": [
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_compass_b_dif.tga",
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_compass_b_asg.tga",
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_compass_s_nor.tga"
+	              ],
+	              "material": "2PoseAnimDifAsgNor"
+	            }
+	          ],
+	          "mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_compass_1.obj",
+	          "pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_compass_2.obj",
+	          "pose1": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_compass_0.obj"
+	        }
+	      ]
+	    },
+	    "scripted": {
+	      "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Compass.lua",
+	      "classname": "Compass"
+	    },
+	    "color": "282525",
+	    "hull": {
+	      "x": 1, "y": 1, "z": 1,
+	      "pointList": [
+	        { "x": -1.0, "y": 1.0, "z": -1.0 },
+	        { "x": -1.0, "y": -1.0, "z": -1.0 },
+	        { "x": 1.0, "y": -1.0, "z": -1.0 },
+	        { "x": 1.0, "y": 1.0, "z": -1.0 },
+	        { "x": -1.0, "y": 1.0, "z": -0.9},
+	        { "x": -1.0, "y": -1.0, "z": -0.9 },
+	        { "x": 1.0, "y": -1.0, "z": -0.9 },
+	        { "x": 1.0, "y": 1.0, "z": -0.9 }
+	      ]
+	    },
+	    "density": 250.0,
+	    "physicsMaterial": "Metal",
+	    "sticky": "-Z",
+	    "rotationSet": "PropZ",
+	    "qualityLevel": 3
+		},
+		{
+			"uuid": "970adf18-e840-4b31-9e65-6c70f415ffec",
+			"name": "obj_interactive_velocimeter",
+	    "renderable": {
+	      "lodList": [
+	         {
+	          "subMeshList": [
+	            {
+	              "textureList": [
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_velocimeter_s_dif.tga",
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_velocimeter_s_asg.tga",
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_velocimeter_s_nor.tga"
+	              ],
+	              "material": "UVAnimDifAsgNor",
+	              "custom":
+	              {
+	                "uv0": { "u": 0.5, "v": 0.1 } /*0.3984375*/
+	              }
+	            },
+	            {
+	              "textureList": [
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_velocimeter_b_dif.tga",
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_velocimeter_b_asg.tga",
+	                "$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_velocimeter_s_nor.tga"
+	              ],
+	              "material": "2PoseAnimDifAsgNor"
+	            }
+	          ],
+	          "mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_velocimeter_1.obj",
+	          "pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_velocimeter_2.obj",
+	          "pose1": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_velocimeter_0.obj"
+	        }
+	      ]
+	    },
+	    "scripted": {
+	      "filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Velocimeter.lua",
+	      "classname": "Velocimeter"
+	    },
+	    "color": "282525",
+	    "hull": {
+	      "x": 1, "y": 1, "z": 1,
+	      "pointList": [
+	        { "x": -1.0, "y": 1.0, "z": -1.0 },
+	        { "x": -1.0, "y": -1.0, "z": -1.0 },
+	        { "x": 1.0, "y": -1.0, "z": -1.0 },
+	        { "x": 1.0, "y": 1.0, "z": -1.0 },
+	        { "x": -1.0, "y": 1.0, "z": -0.9},
+	        { "x": -1.0, "y": -1.0, "z": -0.9 },
+	        { "x": 1.0, "y": -1.0, "z": -0.9 },
+	        { "x": 1.0, "y": 1.0, "z": -0.9 }
+	      ]
+	    },
+	    "density": 250.0,
+	    "physicsMaterial": "Metal",
+	    "sticky": "-Z",
+	    "rotationSet": "PropZ",
+	    "qualityLevel": 3
+		},
+		{
+			"uuid": "7a840ab7-e1a9-46a9-b862-bec8d0d11a76",
+			"name": "obj_interactive_speedometer",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_speedometer_dif.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_speedometer_asg.png",
+									"$SURVIVAL_DATA/Objects/Textures/modscrap/obj_interactive_speedometer_nor.png"
+								],
+								"material": "2PoseAnimDifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_speedometer_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_speedometer_1.fbx",
+						"pose1": "$SURVIVAL_DATA/Objects/Mesh/modscrap/obj_interactive_speedometer_2.fbx"
+					}
+				]
+			},
+			"sticky": "-X+X-Y+Y-Z",
+			"rotationSet": "T_-Y-Z",
+			"color": "424242",
+			"hull": {
+				"x": 3, "y": 1, "z": 1,
+				/*"margin": 0.01,*/
+				"pointList": [
+					{ "x": 1.0, "y": 1.0, "z": -1.0 },
+					{ "x": -1.0, "y": 1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 },
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 }
+				]
+			},
+			"density": 25.0,
+			"scripted" :
+			{
+				"filename": "$SURVIVAL_DATA/Scripts/game/modscrap/Speedometer.lua",
+				"classname": "Speedometer"
+			},
+			"ratings": {
+				"durability": 2,
+				"friction": 5,
+				"buoyancy": 7
+			},
+			"flammable": false,
+			"qualityLevel": 1,
+			"physicsMaterial": "Plastic"
+		}
+  ]
+}
