@@ -1,0 +1,21 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Scripts/WayPoints/Char_maptablet/char_maptablet.dae",
+		"subMeshList" : [
+			{
+				"textureList": [
+					"$SURVIVAL_DATA/Scripts/WayPoints/Char_maptablet/char_maptablet_dif.tga",
+					"$SURVIVAL_DATA/Scripts/WayPoints/Char_maptablet/char_maptablet_asg.tga",
+					"$SURVIVAL_DATA/Scripts/WayPoints/Char_maptablet/char_maptablet_nor.tga"
+				],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"animationList": [
+			{ "name": "open_equipt", "file": "$SURVIVAL_DATA/Scripts/WayPoints/Char_maptablet/Animations/ani_char_maptablet_use_into.dae" }
+		],
+		"maxViewDistance": 10000000000000000000.0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Scripts/WayPoints/map_satellite/map_satellite.dae",
+		"subMeshList" : [
+			{
+				"textureList": [
+					"$SURVIVAL_DATA/Scripts/WayPoints/map_satellite/map_satellite_dif.tga",
+					"$SURVIVAL_DATA/Scripts/WayPoints/map_satellite/map_satellite_asg.tga",
+					"$SURVIVAL_DATA/Scripts/WayPoints/map_satellite/map_satellite_nor.tga"
+				],
+				"material": "SkelAnimDifAsgNor"
+			}
+		],
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"animationList": [
+			{ "name": "open", "file": "$SURVIVAL_DATA/Scripts/WayPoints/map_satellite/Animations/map_satellite_open.dae" },
+			{ "name": "idle", "file": "$SURVIVAL_DATA/Scripts/WayPoints/map_satellite/Animations/map_satellite_idle.dae" },
+			{ "name": "close", "file": "$SURVIVAL_DATA/Scripts/WayPoints/map_satellite/Animations/map_satellite_close.dae" },
+			{ "name": "launch", "file": "$SURVIVAL_DATA/Scripts/WayPoints/map_satellite/Animations/map_satellite_launch.dae" }
+		],
+		"maxViewDistance": 10000000000000000000.0
+	}]
+}

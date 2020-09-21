@@ -1,0 +1,165 @@
+{
+	"toolList": [
+		{
+			"uuid": "448f7c93-699d-47b4-83ef-dbc78a1f9636",
+			"previewRenderable": "$SURVIVAL_DATA/Scripts/WayPoints/char_maptablet_preview.rend",
+			//"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_handbook_preview.rend",
+			"previewRotation": [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/Map.lua",
+				"class": "Map"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "bb641a4f-e391-441c-bc6d-0ae21a069476",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
+			"previewRotation": [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/Sledgehammer.lua",
+				"class": "Sledgehammer"
+			}
+		},
+		{
+			"uuid": "262aa73a-ca62-4d27-8c96-c3566352bd8a",
+			"previewRenderable": "$SURVIVAL_DATA/Character/Char_Tools/char_carrytool_preview.rend",
+			"previewRotation": [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/CarryTool.lua",
+				"class": "CarryTool"
+			}
+		},
+		{
+			"uuid": "8f190ce2-3a59-423e-8483-a7aa67bd5bc0",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_lift_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/SurvivalLift.lua",
+				"class": "SurvivalLift"
+			}
+		},
+		{
+			"uuid": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
+			"previewRotation": [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/Planter.lua",
+				"class": "Planter"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "f26a26bf-b9be-4e59-83e4-da2e9e6dd285",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/Fertilizer.lua",
+				"class": "Fertilizer"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "c5ea0c2f-185b-48d6-b4df-45c386a575cc",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/PotatoRifle.lua",
+				"class": "PotatoRifle"
+			}
+		},
+		{
+			"uuid": "52c1d933-5ba0-47da-b107-477b6c211a5d",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/Bucket.lua",
+				"class": "Bucket"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "2bff990a-0e74-43c7-b7dc-889b3a086fa3",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/Eat.lua",
+				"class": "Eat"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "9506abb9-e415-4229-a824-28a479cca788",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/Glowstick.lua",
+				"class": "Glowstick"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "87cf94fa-a52a-47bd-8d62-47a2e10fe2af",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/Feeder.lua",
+				"class": "Feeder"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "3ef5412a-7044-45ae-9592-9ce86bd99081",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/SoilBag.lua",
+				"class": "SoilBag"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "59a3469c-d7cd-4784-aa5b-316749abc2b6",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/KeyTool.lua",
+				"class": "KeyTool"
+			},
+			"autoTool": true
+		},
+		{
+			"uuid": "f6250bf4-9726-406f-a29a-945c06e460e5",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_frier_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/PotatoShotgun.lua",
+				"class": "PotatoShotgun"
+			}
+		},
+		{
+			"uuid": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_spinner_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/PotatoGatling.lua",
+				"class": "PotatoGatling"
+			}
+		},
+		{
+			"uuid": "5bbe87d3-d60a-48b5-9ca9-0086c80ebf7f",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_connecttool_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"file": "$SURVIVAL_DATA/Scripts/game/tools/SplineCamera.lua",
+				"class": "SplineCamera"
+			}
+		}
+
+	]
+}
+
+//[ 1, 0, 0, 0, 0, -1, 0, 1, 0] points to right down
+//[ -1, 0, 0, 0, 0, 1, 0, 1, 0] points to up left
+//[ 0, 0, 1, 1, 0, 0, 0, 1, 0 ] points to up right
+//[ 0, 0, -1, -1, 0, 0, 0, 1, 0 ] points to down left
+//[ 1, 0, 0, 0, 0, -1, 0, -1, 0 ] up
